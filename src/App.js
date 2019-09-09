@@ -9,7 +9,17 @@ import './App.css';
 class App extends Component {
   // Setting this.state.friends to the friends json array
   state = {
-    places
+    places,
+    count: 0,
+    score: 0,
+    clickedCards: []
+  };
+
+
+   // handleIncrement increments this.state.count by 1
+   handleIncrement = () => {
+    // use the setState method to update a component's state
+    this.setState({ count: this.state.count + 1 });
   };
 
 
@@ -25,6 +35,7 @@ class App extends Component {
             name={place.name}
             image={place.image}
             country={place.country}
+            count={place.count}
           />
          
         ))}
