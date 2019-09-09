@@ -8,7 +8,7 @@ function App() {
        
         <Jumbotron />
        
-      </div>
+    </div>
   );
 }
 
