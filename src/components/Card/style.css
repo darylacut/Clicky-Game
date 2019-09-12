@@ -6,9 +6,11 @@
 .deck > div {
     margin: 3.5%;
     border-radius: 0px;
-    border: none;
+    border: solid;
+    border-color: aliceblue;
+    border-width: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
-    max-width: 450px;
+    max-width: 430px;
     height: 250px;
 }
 
@@ -20,11 +22,13 @@
 .card-title {
     margin: 0;
     font-size: 90%;
+    text-shadow: 1px 1px 3px #000000;
 }
 
 .card-text {
     margin: 0;
     font-size: 75%;
+    text-shadow: 1px 1px 3px #000000;
 }
 
 .card-img-overlay {
